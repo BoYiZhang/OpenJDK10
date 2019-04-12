@@ -103,6 +103,8 @@
 #include "utilities/macros.hpp"
 #include "utilities/preserveException.hpp"
 #include "utilities/vmError.hpp"
+#include "thread.hpp"
+
 #if INCLUDE_ALL_GCS
 #include "gc/cms/concurrentMarkSweepThread.hpp"
 #include "gc/g1/concurrentMarkThread.inline.hpp"
@@ -3485,6 +3487,7 @@ void Threads::initialize_jsr292_core_classes(TRAPS) {
 
 jint Threads::create_vm(JavaVMInitArgs* args, bool* canTryAgain) {
   extern void JDK_Version_init();
+
 
   // Preinitialize version info.
   VM_Version::early_initialize();
