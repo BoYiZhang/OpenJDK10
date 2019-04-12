@@ -1,0 +1,3 @@
+/workspace/OpenJDK10/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/workspace/OpenJDK10/cmake-build-debug/CMakeFiles/edit_cache.dir
+/workspace/OpenJDK10/cmake-build-debug/CMakeFiles/OpenJDK10.dir

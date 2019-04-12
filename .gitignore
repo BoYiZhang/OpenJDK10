@@ -1,0 +1,21 @@
+.project
+/target/
+build
+target/
+.classpath
+.settings/
+META-INF/
+build.properties
+.idea/
+src/target/
+.DS_Store
+*.iml
+*/target/
+*.class
+*.log
+tools/target/
+*.class
+*pom.xml
+# Log file
+*.log
+
