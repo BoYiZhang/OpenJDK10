@@ -22,6 +22,7 @@
  *
  */
 
+#include <jni_md.h>
 #include "precompiled.hpp"
 #include "aot/aotLoader.hpp"
 #include "classfile/classLoader.hpp"

@@ -25,9 +25,9 @@
 #ifndef SHARE_VM_UTILITIES_DEBUG_HPP
 #define SHARE_VM_UTILITIES_DEBUG_HPP
 
-#include "utilities/breakpoint.hpp"
-#include "utilities/compilerWarnings.hpp"
-#include "utilities/macros.hpp"
+#include "breakpoint.hpp"
+#include "compilerWarnings.hpp"
+#include "macros.hpp"
 
 #include <stddef.h>
 

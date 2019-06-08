@@ -8,3 +8,40 @@ source code, please see either of these:
   * doc/building.md     (markdown version)
 
 See http://openjdk.java.net/ for more information about OpenJDK.
+
+
+
+头文件有找不到的情况, 在c++ 目录里面建立软连接
+目录: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1
+
+cd /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1
+
+
+ln -s /workspace/OpenJDK10/src/hotspot/share/ci
+ln -s /workspace/OpenJDK10/src/hotspot/share/interpreter
+ln -s /workspace/OpenJDK10/src/hotspot/share/metaprogramming
+ln -s /workspace/OpenJDK10/src/hotspot/share/runtime
+ln -s /workspace/OpenJDK10/src/hotspot/share/utilities
+ln -s /workspace/OpenJDK10/src/hotspot/share/adlc
+ln -s /workspace/OpenJDK10/src/hotspot/share/classfile
+ln -s /workspace/OpenJDK10/src/hotspot/share/jvmci
+ln -s /workspace/OpenJDK10/src/hotspot/share/oops
+ln -s /workspace/OpenJDK10/src/hotspot/share/services
+ln -s /workspace/OpenJDK10/src/hotspot/share/aot
+ln -s /workspace/OpenJDK10/src/hotspot/share/code
+ln -s /workspace/OpenJDK10/src/hotspot/share/libadt
+ln -s /workspace/OpenJDK10/src/hotspot/share/opto
+ln -s /workspace/OpenJDK10/src/hotspot/share/share1.iml
+ln -s /workspace/OpenJDK10/src/hotspot/share/asm
+ln -s /workspace/OpenJDK10/src/hotspot/share/compilerlogging
+ln -s /workspace/OpenJDK10/src/hotspot/share/precompiledshark
+ln -s /workspace/OpenJDK10/src/hotspot/share/c1
+ln -s /workspace/OpenJDK10/src/hotspot/share/gc
+ln -s /workspace/OpenJDK10/src/hotspot/share/memory
+ln -s /workspace/OpenJDK10/src/hotspot/share/prims
+ln -s /workspace/OpenJDK10/src/hotspot/share/trace
+ln -s /workspace/OpenJDK10/src/hotspot/share/logging
+ln -s /workspace/OpenJDK10/src/hotspot/share/compiler
+
+
+

@@ -25,10 +25,11 @@
 #ifndef SHARE_VM_UTILITIES_EXCEPTIONS_HPP
 #define SHARE_VM_UTILITIES_EXCEPTIONS_HPP
 
-#include "memory/allocation.hpp"
-#include "oops/oopsHierarchy.hpp"
-#include "utilities/ostream.hpp"
-#include "utilities/sizes.hpp"
+#include <handles.hpp>
+#include "allocation.hpp"
+#include "oopsHierarchy.hpp"
+#include "ostream.hpp"
+#include "sizes.hpp"
 
 // This file provides the basic support for exception handling in the VM.
 // Note: We do not use C++ exceptions to avoid compiler dependencies and
